@@ -232,14 +232,6 @@
 <audio id="song" autoplay>
     <source src="image/nhac.mp3" type="audio/mp3">
 </audio>
-<script>
-    var audio = document.getElementById("song");
-    audio.addEventListener("canplay", function() {
-        audio.playbackRate = 1.25; // Chỉnh tốc độ lên 1.5 khi đã sẵn sàng phát
-        audio.play(); // Phát lại nhạc sau khi đã thiết lập tốc độ
-    });
-</script>
-
 
 <script src="intro.js"></script>
 </body>
