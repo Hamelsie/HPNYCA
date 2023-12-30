@@ -210,14 +210,14 @@
                 <div class="right">
                     <div class="content">
                         <div class="title">
-                            <h1>&#129505Gửi bé !</h1>
+                            <h1>&#129505Gửi Châu Anh 💕 !</h1>
                         </div>
-                        <p>Năm mới,chị chúc em nhiều sức khỏe thôi.
-                        Lun vui vẻ hạnh phúc,học hành thuận lợi lun
-                        được học bổng cao. Công việc ở ban chấp hành 
-                        lun thuận lợi, lun được mọi người iu quý tin tưởng
-                        Mọi điều em mong sẽ lun có thể thành hiện thực.Cảm
-                        ơn đã chơi vs nhau kkkk 💖
+                        <p>Năm 2024 chúc cô gái lun vui vẻ
+                            hạnh phúc.Chúc bạn đạt điểm cao 
+                            khóa luận tốt nghiệp, có công việc
+                            mình mong  muốn. Những dự định trong
+                            tương lai cũm thuận lợi ạ.Và lun vui vẻ
+                            hạnh phúc như giờ💖
                         </p>
                         <div class="fixedContent">
                             <h3>Người gửi: Phan Ánh Ngọc Thư</h3>
@@ -229,9 +229,17 @@
         </div>
     </div>
 
-    <audio id="song"autoplay>
-        <source src="image/nhac.mp3" type="audio/mp3">
-    </audio>
+<audio id="song" autoplay>
+    <source src="image/nhac.mp3" type="audio/mp3">
+</audio>
+<script>
+    var audio = document.getElementById("song");
+    audio.addEventListener("canplay", function() {
+        audio.playbackRate = 1.25; // Chỉnh tốc độ lên 1.5 khi đã sẵn sàng phát
+        audio.play(); // Phát lại nhạc sau khi đã thiết lập tốc độ
+    });
+</script>
+
 
 <script src="intro.js"></script>
 </body>
